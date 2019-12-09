@@ -1,0 +1,382 @@
+<html lang="pt-br">
+<head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!--responsividade do site -->
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Análize de Gestão</title>
+
+    <!-- Bootstrap -->
+   <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <title></title>
+  
+  
+  <style type="text/css">
+    
+  </style>
+  <script type="text/javascript" src="calculo.js"></script>
+
+  </head>
+
+<body>
+  <img src="indice.pn" class="img-responsive" alt="image" width="400" height="300">
+  <p>
+  </p>
+  <form class="login-form" method="POST" action="armazena_dados_empresa.php">
+     <div class="form-group">
+		  				<label for="exampleInputEmail1" class="text-uppercase">Usuário:</label><input type="text" class="form-control" name="usuario" id="usuario" maxlength="50">
+		  			</div>
+      <div class="row">
+        <div class="col-12" colspan=5 height="58" align="center" valign=middle><b><font face="Times New Roman" size=6.5 gcolor="#E0FFFF">Diagnóstico de Gestão Empresarial de Novos Empreendimentos (GENE)</font></b></td>
+        </div>
+        <div class="col-12" bgcolor="#E0FFFF" height="47" align="center" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><b><font face="Times New Roman" size=6.5>Diagnóstico GENE</font></b></div>
+      	<div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Frequentemente avalio se os meus produtos e/ou serviços poderiam ser vendidos em outros mercados, que não os planejados inicialmente. </font></div>
+            <div class="col-3" >
+              <center><select class="form-control" maxlength="11" type="Number" name="campo1" id="campo1">
+                <option value="0">Opções </option>
+                <option value="1">Discordo Totalmente</option>
+                <option value="2">Concordo Parcialmente</option>
+                <option value="3">Nem discordo/Nem concordo</option>
+                <option value="4">Concordo Parcialmente</option>
+                <option value="5">Concordo Totalmente</option>
+              </select></center> 
+            </div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-9" bgcolor="#E0FFFF" height="74" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Quando percebo que meus produtos e/ou serviços são comprados por alguém que eu não tinha imaginado antes, incentivo positivamente a sua venda, pois sei que é mais importante servir o novo cliente do que pensar apenas no meu produto e/ou serviço de forma isolada.</font></div>
+            <div class="col-3">
+              <center><select class="form-control" maxlength="11" type="Number" name="campo2" id="campo2">
+                <option value="0">Opções</option>
+                <option value="1">Discordo Totalmente</option>
+                <option value="2">Concordo Parcialmente</option>
+                <option value="3">Nem discordo/Nem concordo</option>
+                <option value="4">Concordo Parcialmente</option>
+                <option value="5">Concordo Totalmente</option>
+              </select></center>
+            </div>
+      </div>
+      <br>
+      <div class="row">
+           <div class="col-9"bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Em geral passo bastante tempo conversando com os meus clientes, vendedores e fornecedores para saber se estão satisfeitos com os meus produtos e/ou serviços.</font></div>
+            <div class="col-3">
+              <center><select class="form-control" maxlength="11" type="Number" name="campo3" id="campo3">
+                <option value="0">Opções</option>
+                <option value="1">Discordo Totalmente</option>
+                <option value="2">Concordo Parcialmente</option>
+                <option value="3">Nem discordo/Nem concordo</option>
+                <option value="4">Concordo Parcialmente</option>
+                <option value="5">Concordo Totalmente</option>
+              </select></center> 
+            </div>
+      </div>
+      <br>
+      <div class="row">
+            <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Quando percebo que meus produtos e/ou serviços são comprados por clientes que não imaginava antes, tento entender as suas motivações para descobrir como estão usando os meus produtos e/ou serviços.</font></div>
+            <div class="col-3">
+              <center> <select class="form-control" maxlength="11" type="Number" name="campo4" id="campo4">
+                <option value="0">Opções</option>
+                <option value="1">Discordo Totalmente</option>
+                <option value="2">Concordo Parcialmente</option>
+                <option value="3">Nem discordo/Nem concordo</option>
+                <option value="4">Concordo Parcialmente</option>
+                <option value="5">Concordo Totalmente</option>
+              </select></center>
+            </div>
+      </div>
+      <br>
+      <div class="row">
+            <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Acredito que o papel do meu negócio é servir os clientes atendendo as suas necessidades e não dizer o que devem fazer com os meus produtos e/ou serviços.</font></div>
+            <div class="col-3">
+              <center> <select class="form-control" maxlength="11" type="Number" name="campo5" id="campo5">
+                <option value="0">Opções</option>
+                <option value="1">Discordo Totalmente</option>
+                <option value="2">Concordo Parcialmente</option>
+                <option value="3">Nem discordo/Nem concordo</option>
+                <option value="4">Concordo Parcialmente</option>
+                <option value="5">Concordo Totalmente</option>
+              </select> </center>
+            </div>
+      </div>
+            
+      
+          <div bgcolor="LightCyan" height="30" align="center" valign=center bgcolor="#E0FFFF" sdnum="1046;0;@"><b><font face="Times New Roman" size=5>Diagnóstico Parcial da Dimensão</font></b></div>
+          <div bgcolor="LightCyan" align="center" valign=center bgcolor="#E0FFFF" sdval="2,6" sdnum="1046;"><b><font face="Times New Roman" size=3>
+            <label>
+              <input type="Number" name="resultado" id="resultado" readonly/>
+              <input type="button" name="btn" value="calcular" onclick="calculo();"/>
+            </label>
+            <div class=container>
+
+        <br><br><br>
+
+
+        <div class="row">
+          <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Na minha empresa tenho dinheiro em caixa ou posso conseguir rapidamente para pagar os fornecedores 60 dias antes do prazo estabelecido por eles para o pagamento.</font></div>
+              <div class="col-3">
+                <center> <select class="form-control" maxlength="11" type="Number" name="campo6" id="campo6">
+                  <option value="0">Opções</option>
+                  <option value="1">Discordo Totalmente</option>
+                  <option value="2">Concordo Parcialmente</option>
+                  <option value="3">Nem discordo/Nem concordo</option>
+                  <option value="4">Concordo Parcialmente</option>
+                  <option value="5">Concordo Totalmente</option>
+                </select> </center>
+              </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Atualmente possuo Capital de Giro (Dinheiro em caixa, Estoques, etc.) suficiente para manter o meu negócio em atividade por pelo menos 60 dias sem precisar de nenhum tipo de empréstimo.</font></div>
+             <div class="col-3">
+                <center> <select class="form-control" maxlength="11" type="Number" name="campo7" id="campo7">
+                  <option value="0">Opções</option>
+                  <option value="1">Discordo Totalmente</option>
+                  <option value="2">Concordo Parcialmente</option>
+                  <option value="3">Nem discordo/Nem concordo</option>
+                  <option value="4">Concordo Parcialmente</option>
+                  <option value="5">Concordo Totalmente</option>
+                </select> </center>
+              </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-9" bgcolor="#E0FFFF" height="32" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Geralmente faço um controle detalhado das Contas a Pagar, das Contas a Receber e dos meus Estoques (se for o caso).</font></div>
+              <div class="col-3">
+                <center> <select class="form-control" maxlength="11" type="Number" name="campo8" id="campo8">
+                  <option value="0">Opções</option> 
+                  <option value="1">Discordo Totalmente</option>
+                  <option value="2">Concordo Parcialmente</option>
+                  <option value="3">Nem discordo/Nem concordo</option>
+                  <option value="4">Concordo Parcialmente</option>
+                  <option value="5">Concordo Totalmente</option>
+                </select> </center>
+              </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-9" bgcolor="#E0FFFF" height="32" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Possuo relativa facilidade para obter empréstimos de instituições financeiras para aplicar no meu negócio.</font></div>
+              <div class="col-3">
+                <center> <select class="form-control" maxlength="11" type="Number" name="campo9" id="campo9">
+                  <option value="0">Opções</option>
+                  <option value="1">Discordo Totalmente</option>
+                  <option value="2">Concordo Parcialmente</option>
+                  <option value="3">Nem discordo/Nem concordo</option>
+                  <option value="4">Concordo Parcialmente</option>
+                  <option value="5">Concordo Totalmente</option>
+                </select> </center>
+              </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Tenho conhecimento das áreas críticas do meu negócio (Capital de Giro; Contas a Pagar; Contas a Receber; Custo das Matérias-Primas; Despesas Administrativas e de Pessoal) e realizo um planejamento para evitar futuros problemas nessas áreas.</font></div>
+              <div class="col-3">
+                <center> <select class="form-control" maxlength="11" type="Number" name="campo10" id="campo10">
+                  <option value="0">Opções</option>
+                  <option value="1">Discordo Totalmente</option>
+                  <option value="2">Concordo Parcialmente</option>
+                  <option value="3">Nem discordo/Nem concordo</option>
+                  <option value="4">Concordo Parcialmente</option>
+                  <option value="5">Concordo Totalmente</option>
+                </select> </center>
+              </div>
+        </div>
+               
+            <div bgcolor="LightCyan" height="30" align="center" valign=center bgcolor="#E0FFFF" sdnum="1046;0;@"><b><font face="Times New Roman" size=5>Diagnóstico Parcial da Dimensão </font></b></div>
+            <div bgcolor="LightCyan" align="center" valign=center bgcolor="#E0FFFF" sdval="0" sdnum="1046;"><b><font face="Times New Roman" size=3>
+              <label>
+                <input type="Number" name="resultado1" id="resultado1" readonly/>
+                <input type="button" name="btn" value="calcular" onclick="calculo1();"/>
+              </label>
+            </font></b></td>
+        </div>
+
+        <br><br><br>
+
+        <div class="row">
+          <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#E0FFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Como Gestor do meu negócio, sempre procuro descentralizar o máximo possível de atribuições para os demais funcionários, pois acredito possuir uma boa equipe de profissionais.</font></div>
+            <div class="col-3">
+                <center> <select class="form-control" maxlength="11" type="Number" name="campo11" id="campo11">
+                  <option value="0">Opções</option>
+                  <option value="1">Discordo Totalmente</option>
+                  <option value="2">Concordo Parcialmente</option>
+                  <option value="3">Nem discordo/Nem concordo</option>
+                  <option value="4">Concordo Parcialmente</option>
+                  <option value="5">Concordo Totalmente</option>
+                </select> </center>
+              </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Possuo uma pequena quantidade de funcionários de confiança que ajudam diariamente na Gestão do meu negócio, mesmo que de forma informal.</font></div>
+            <div class="col-3">
+                <center> <select class="form-control" maxlength="11" type="Number" name="campo12" id="campo12">
+                  <option value="0">Opções</option>
+                  <option value="1">Discordo Totalmente</option>
+                  <option value="2">Concordo Parcialmente</option>
+                  <option value="3">Nem discordo/Nem concordo</option>
+                  <option value="4">Concordo Parcialmente</option>
+                  <option value="5">Concordo Totalmente</option>
+                </select> </center>
+              </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-9" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Procuro incentivar o trabalho em equipe entre os funcionários, pois acredito que a colaboração é a chave para o sucesso do meu negócio.</font></div>
+            <div class="col-3">
+                  <center> <select class="form-control" maxlength="11" type="Number" name="campo13" id="campo13">
+                    <option value="0">Opções</option>
+                    <option value="1">Discordo Totalmente</option>
+                    <option value="2">Concordo Parcialmente</option>
+                    <option value="3">Nem discordo/Nem concordo</option>
+                    <option value="4">Concordo Parcialmente</option>
+                    <option value="5">Concordo Totalmente</option>
+                  </select> </center>
+                </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-9" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Geralmente me concentro em poucas áreas importantes que consigo fazer bem e me certifico que outras atividades importantes e bem definidas sejam realizadas por funcionários de confiança e com competências para desenvolver um bom trabalho.</font></div>
+            <div class="col-3">
+                    <center> <select class="form-control" maxlength="11" type="Number" name="campo14" id="campo14">
+                      <option value="0">Opções</option>
+                      <option value="1">Discordo Totalmente</option>
+                      <option value="2">Concordo Parcialmente</option>
+                      <option value="3">Nem discordo/Nem concordo</option>
+                      <option value="4">Concordo Parcialmente</option>
+                      <option value="5">Concordo Totalmente</option>
+                    </select> </center>
+                  </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Deixo claro sempre que possível o que espero dos funcionários em termos de obrigações e responsabilidades, dando informações e orientações para que desempenhem um bom trabalho.</font></div>
+            <div class="col-3">
+                      <center> <select class="form-control" maxlength="11" type="Number" name="campo15" id="campo15">
+                        <option value="0">Opções</option>
+                        <option value="1">Discordo Totalmente</option>
+                        <option value="2">Concordo Parcialmente</option>
+                        <option value="3">Nem discordo/Nem concordo</option>
+                        <option value="4">Concordo Parcialmente</option>
+                        <option value="5">Concordo Totalmente</option>
+                      </select> </center>
+                    </div>
+        </div>
+      
+        <div bgcolor="LightCyan" height="30" align="center" valign=center bgcolor="#FFFFFF" sdnum="1046;0;@"><b><font face="Times New Roman" size=5>Diagnóstico Parcial da Dimensão </font></b></div>
+        <div bgcolor="LightCyan" align="center" valign=center bgcolor="#FFFFFF" sdval="0" sdnum="1046;"><b><font face="Times New Roman" size=3>
+          <label>
+            <input type="Number" name="resultado2" id="resultado2" readonly/>
+            <input type="button" name="btn" value="calcular2" onclick="calculo2();"/>
+          </label>
+          </font></b></div>
+
+          <br><br><br><br>
+        <div class="row">
+          <div class="col-9" bgcolor="#E0FFFF" height="32" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Costumo me perguntar do que é que o meu negócio vai precisar futuramente em termos de Gestão.</font></div>
+             <div class="col-3">
+                        <center> <select class="form-control" maxlength="11" type="Number" name="campo16" id="campo16">
+                          <option value="0">Opções</option>
+                          <option value="1">Discordo Totalmente</option>
+                          <option value="2">Concordo Parcialmente</option>
+                          <option value="3">Nem discordo/Nem concordo</option>
+                          <option value="4">Concordo Parcialmente</option>
+                          <option value="5">Concordo Totalmente</option>
+                        </select> </center>
+                      </div>
+        </div>
+        <br>
+        <div class="row">
+        <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Dentro do que identifico como necessidades futuras de Gestão, me pergunto constantemente como posso contribuir para satisfazer essas necessidades.</font></div>
+           <div class="col-3">
+                        <center> <select class="form-control" maxlength="11" type="Number" name="campo17" id="campo17">
+                          <option value="0">Opções</option>
+                          <option value="1">Discordo Totalmente</option>
+                          <option value="2">Concordo Parcialmente</option>
+                          <option value="3">Nem discordo/Nem concordo</option>
+                          <option value="4">Concordo Parcialmente</option>
+                          <option value="5">Concordo Totalmente</option>
+                        </select> </center>
+                      </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Acredito que seja importante fazer algo que eu realmente quero fazer dentro da empresa, algo que eu verdadeiramente goste de fazer e que constitua uma contribuição valiosa para o meu negócio.</font></div>
+             <div class="col-3">
+                          <center> <select class="form-control" maxlength="11" type="Number" name="campo18" id="campo18">
+                            <option value="0">Opções</option>
+                            <option value="1">Discordo Totalmente</option>
+                            <option value="2">Concordo Parcialmente</option>
+                            <option value="3">Nem discordo/Nem concordo</option>
+                            <option value="4">Concordo Parcialmente</option>
+                            <option value="5">Concordo Totalmente</option>
+                          </select> </center>
+                        </div>
+        </div>
+        <br>
+        <div class="row">
+        <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Sempre me pergunto qual é o meu lugar no meu negócio para me certificar de que estou dando contribuições valiosas e indispensáveis para o crescimento e o desenvolvimento do meu negócio.</font></div>
+           <div class="col-3">
+                          <center> <select class="form-control" maxlength="11" type="Number" name="campo19" id="campo19">
+                            <option value="0">Opções</option>
+                            <option value="1">Discordo Totalmente</option>
+                            <option value="2">Concordo Parcialmente</option>
+                            <option value="3">Nem discordo/Nem concordo</option>
+                            <option value="4">Concordo Parcialmente</option>
+                            <option value="5">Concordo Totalmente</option>
+                          </select> </center>
+                        </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-9" bgcolor="#E0FFFF" height="53" align="justify" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><font face="Times New Roman" size=4>Frequentemente discuto com pessoas de confiança (amigos ou parentes que não fazem parte do negócio) decisões fundamentais tomadas por mim no meu negócio, pois acredito que opiniões externas podem contribuir para a Gestão do meu negócio. </font></div>
+             <div class="col-3">
+                            <center> <select class="form-control" maxlength="11" type="Number" name="campo20" id="campo20">
+                              <option value="0">Opções</option>
+                              <option value="1">Discordo Totalmente</option>
+                              <option value="2">Concordo Parcialmente</option>
+                              <option value="3">Nem discordo/Nem concordo</option>
+                              <option value="4">Concordo Parcialmente</option>
+                              <option value="5">Concordo Totalmente</option>
+                            </select> </center>
+                          </div>
+        </div>
+        <div bgcolor="LightCyan" height="30" align="center" valign=center bgcolor="#FFFFFF" sdnum="1046;0;@"><b><font face="Times New Roman" size=5>Diagnóstico Parcial da Dimensão </font></b></div>
+        <div bgcolor="LightCyan" align="center" valign=center bgcolor="#FFFFFF" sdval="0" sdnum="1046;"><b><font face="Times New Roman" size=3>
+          <label>
+            <input type="Number" name="resultado3" id="resultado3" readonly/>
+            <input type="button" name="btn" value="calcular3" onclick="calculo3();"/>
+          </label>
+        </font></b></div>
+
+        <div bgcolor="#E0FFFF" height="40" align="center" valign=center bgcolor="#FFFFFF" sdnum="1046;0;@"><b><font face="Times New Roman" size=6.5>DIAGNÓSTICO GERAL</font></b></div>
+            <td bgcolor="#E0FFFF" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><b><font face="Times New Roman" size=4>Pontuação</font></b></td>
+        </font></b></td>
+        <td bgcolor="#E0FFFF" style="border-top: 1px solid #000000; border-bottom: 1px solid #ffffff; border-left: 1px solid #000000; border-right: 1px solid #000000" colspan=3 align="center" valign=top bgcolor="#FFFFFF" sdnum="1046;0;@"><b><font face="Times New Roman" size=5.5>Estado Atual da Gestão Empresarial do Empreendimento </font></b></td>
+        <td align="left" valign=top><br></td>
+      </tr>
+      <tr>
+       
+            <label>
+            <input type="Number" name="resultado4" id="resultado4" readonly/>
+            <input type="button" name="btn" value="calcular4" onclick="calculo4();"/>
+          </label>
+          <br></font></b></td>
+        <h2><input type="submit" class="btn btn-login float-right" value="Enviar" id="enviar" name="enviar"></h2>
+  </form>
+</html>
