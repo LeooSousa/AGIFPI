@@ -16,10 +16,10 @@
     <meta name="author" content="">
     <link rel="stylesheet" type="text/css" href="css/freelancer.css">
     <link rel = "shortcut icon" type = "img/profile.png" href ="/home/aluno/Downloads/startbootstrap-freelancer-gh-pages/img/profile.png"/imagens/icone_ie.ico"/>
-    <link rel="shortcut icon" type="images.jpg" href="images.jpg">
+    <link rel="shortcut icon" type="logo2.png" href="logo2.png">
     <title>Gestão Empresarial</title>
 
-    <!-- Bootstrap core CSS -->
+     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
 
@@ -58,50 +58,42 @@
     <script type="text/javascript" src="calculo.js"></script>
 </head>
 <body id="page-top">
-   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+   
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="index.php">Página inicial</a>
         
+        
               
             
 
-              <h2 class="nome"><?php
-        if (isset($_COOKIE['usuario'])) {
-         echo $_COOKIE['usuario'];
-      }
-      else { ?></h2>
-        <div>
-        <input style="width: 70px; padding: 3px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #000066; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #18bc9c; color: #ffffff; border-radius: 6px; border: 1px solid #999; font-size: 100%;" id="s" type="button" value="Logar" onclick="window.location.href='home.html'"/></div>
-      <?php } ?>
+            <?php 
+               if (!isset($_COOKIE['usuario'])) {
+                echo "";
+                 # code...
+               }
+               else{?>
+                <div>
+                  <input class="btn-log-tabela" style="width: 70px; padding: 3px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #000066; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #18bc9c; color: #ffffff; border-radius: 6px; border: 1px solid #999; font-size: 100%;" id="s" type="button" value="Sair" onclick="window.location.href='logout.php'"/></div>
+            
+            <?php } ?>    
+                
 
-      <?php 
-       if (!isset($_COOKIE['usuario'])) {
-        echo "";
-         # code...
-       }
-       else{?>
-        <div>
-          <input style="width: 70px; padding: 3px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #000066; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #18bc9c; color: #ffffff; border-radius: 6px; border: 1px solid #999; font-size: 100%;" id="s" type="button" value="Sair" onclick="window.location.href='logout.php'"/></div>
-        
-    <?php } ?>    
+                <h3 class="nome-tabela"><?php
+                    if (isset($_COOKIE['usuario'])) {
+                        echo $_COOKIE['usuario'];
+                    }else { ?> </h3>
+
+            <div>
+            <input style="width: 70px; padding: 3px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #000066; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #18bc9c; color: #ffffff; border-radius: 6px; border: 1px solid #999; font-size: 100%;" id="s" type="button" value="Logar" onclick="window.location.href='home.html'"/></div>
+            <?php } ?>    
      
             
-            <div>
-              
-            </div>
-            <div>
-            <hr class="sidebar - divider my -0">
-            <div class="">
-                
-              
-                  
-                  </div>
-                </div>
-              </p>
-            </div>
-          </ul>
+            
+            
         </div>
-      </div>
     </nav>
 
 <!------ Include the above in your HEAD tag ---------->
